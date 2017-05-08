@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1494263931,
+	"version": 1494265677,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -14,6 +14,7 @@
 		"images/particleswhite.png",
 		"images/particlesblack.png",
 		"images/particlesred.png",
+		"media/epicarpg.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",

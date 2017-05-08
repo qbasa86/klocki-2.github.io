@@ -22279,6 +22279,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Text.prototype.acts.SetOpacity,
+	cr.plugins_.Audio.prototype.acts.Play,
 	cr.system_object.prototype.acts.SubVar,
 	cr.behaviors.Sin.prototype.acts.SetActive,
 	cr.system_object.prototype.acts.RestartLayout,
