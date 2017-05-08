@@ -22256,11 +22256,12 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.bound,
 	cr.behaviors.Sin,
 	cr.system_object.prototype.cnds.EveryTick,
-	cr.plugins_.Sprite.prototype.acts.RotateClockwise,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Sprite.prototype.cnds.CompareOpacity,
 	cr.plugins_.Sprite.prototype.acts.SetOpacity,
 	cr.plugins_.Sprite.prototype.exps.Opacity,
+	cr.system_object.prototype.cnds.CompareVar,
+	cr.plugins_.Sprite.prototype.acts.RotateClockwise,
 	cr.plugins_.Touch.prototype.cnds.IsInTouch,
 	cr.plugins_.Sprite.prototype.acts.SetPos,
 	cr.plugins_.Touch.prototype.exps.X,
@@ -22279,7 +22280,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Text.prototype.acts.SetOpacity,
 	cr.system_object.prototype.acts.SubVar,
-	cr.system_object.prototype.cnds.CompareVar,
+	cr.behaviors.Sin.prototype.acts.SetActive,
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.plugins_.Sprite.prototype.acts.SetSize
 ];};
